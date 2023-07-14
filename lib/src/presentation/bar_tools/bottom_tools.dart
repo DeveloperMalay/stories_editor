@@ -96,18 +96,18 @@ class BottomTools extends StatelessWidget {
                     ),
                   )
                 else
-                  Expanded(
+                  const Expanded(
                     child: Center(
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                          Image.asset(
-                            'assets/images/instagram_logo.png',
-                            package: 'stories_editor',
-                            color: Colors.white,
-                            height: 42,
-                          ),
-                          const Text(
+                          // Image.asset(
+                          //   'assets/images/instagram_logo.png',
+                          //   package: 'stories_editor',
+                          //   color: Colors.white,
+                          //   height: 42,
+                          // ),
+                          Text(
                             'Stories Creator',
                             style: TextStyle(
                                 color: Colors.white38,
